@@ -2,7 +2,7 @@
 If Browser("PetClinic :: a Spring").Exist(5) Then
 	Browser("PetClinic :: a Spring").Close
 End If
-SystemUtil.Run "iexplore.exe", "http://NB-MX-15:9082"
+SystemUtil.Run "iexplore.exe", "http://devops.verizon.com:9080"
 
 
 Browser("PetClinic :: a Spring").Page("PetClinic :: a Spring").Link("Find owners").Click @@ hightlight id_;_Browser("PetClinic :: a Spring").Page("PetClinic :: a Spring").Link("Find owners")_;_script infofile_;_ZIP::ssf1.xml_;_
